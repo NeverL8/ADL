@@ -13,16 +13,16 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from model_examples import UncertaintyCNN
 from helper import denormalize, denormalize_std, train_model, get_normalized_data, evaluate_model
 
-dblArr: tp.TypeAlias = np.typing.NDArray[np.float64]
+dblArr: tp.TypeAlias = np._typing.NDArray[np.float64]
 
-DATA_PATH = "../data/4/"
+DATA_PATH = "/home/simon/ADL/B03/"
 model_name = "CNN_1_gaussian_error"
 
 # Hyperparameters
-learning_rate = 0.8e-5
-batch_size = 32
-num_epochs = 400
-patience = 20  # Training loop with early stopping, if the validation loss does not improve for 'patience' epochs
+learning_rate = 1e-5
+batch_size = 64
+num_epochs = 10
+patience = 5  # Training loop with early stopping, if the validation loss does not improve for 'patience' epochs
 train_fraction = 0.7  # Fraction of the data used for training
 val_fraction = 0.15  # Fraction of the data used for validation
 
