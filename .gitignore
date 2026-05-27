@@ -1,2 +1,5 @@
 # Ignore NumPy binary files
 *.npy
+
+# Ignore PDF files
+*.pdf
