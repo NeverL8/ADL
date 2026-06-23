@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{LEARNING\PYGZus{}RATE} \PYG{o}{=} \PYG{l+m+mf}{4e\PYGZhy{}4}
+\PYG{n}{BATCH\PYGZus{}SIZE} \PYG{o}{=} \PYG{l+m+mi}{128}  \PYG{c+c1}{\PYGZsh{} Batch size}
+\PYG{n}{N\PYGZus{}EPOCHS} \PYG{o}{=} \PYG{l+m+mi}{100}
+\PYG{n}{IMAGE\PYGZus{}SIZE} \PYG{o}{=} \PYG{l+m+mi}{28}
+\PYG{n}{TIME\PYGZus{}STEPS} \PYG{o}{=} \PYG{l+m+mi}{1000}
+\PYG{n}{SAMPLING\PYGZus{}TIMESTEPS} \PYG{o}{=} \PYG{l+m+mi}{250}
+\end{MintedVerbatim}

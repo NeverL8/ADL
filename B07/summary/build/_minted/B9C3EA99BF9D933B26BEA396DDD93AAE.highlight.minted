@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{DIM} \PYG{o}{=} \PYG{l+m+mi}{32}
+\PYG{n}{DIM\PYGZus{}MULTS} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{Unet}\PYG{p}{(}
+    \PYG{n}{dim} \PYG{o}{=} \PYG{n}{DIM}\PYG{p}{,}
+    \PYG{n}{dim\PYGZus{}mults} \PYG{o}{=} \PYG{n}{DIM\PYGZus{}MULTS}\PYG{p}{,}
+    \PYG{n}{flash\PYGZus{}attn} \PYG{o}{=} \PYG{k+kc}{False}\PYG{p}{,}
+    \PYG{n}{channels} \PYG{o}{=} \PYG{l+m+mi}{1}
+\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.26)  17 JUN 2026 10:41
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.26)  23 JUN 2026 19:30
  restricted system commands enabled.
 **MNIST_diffusion.tex
 (./MNIST_diffusion.tex
@@ -640,6 +640,56 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \xmathstrut@box=\box58
 \xmathstrut@dim=\dimen179
 )
+(/home/simon/.local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip74
+\LTright=\skip75
+\LTpre=\skip76
+\LTpost=\skip77
+\LTchunksize=\count322
+\LTcapwidth=\dimen180
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count323
+\LT@rows=\count324
+\c@LT@tables=\count325
+\c@LT@chunks=\count326
+\LT@p@ftn=\toks27
+)
+Class scrbook Info: longtable captions redefined on input line 55.
+
+(/home/simon/.local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen181
+\ar@mcellbox=\box64
+\extrarowheight=\dimen182
+\NC@list=\toks28
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box65
+)
+(/home/simon/.local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/simon/.local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count327
+\Gm@cntv=\count328
+\c@Gm@tempcnt=\count329
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
+\Gm@dimlist=\toks29
+)
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math
 .sty
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
@@ -665,9 +715,9 @@ Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
 h LuaLaTeX
 Lua module: lualatex-math 2013/08/03 v1.3 Patches for mathematics typesetting wi
 th LuaLaTeX)
-\g__um_fam_int=\count322
-\g__um_fonts_used_int=\count323
-\l__um_primecount_int=\count324
+\g__um_fam_int=\count330
+\g__um_fonts_used_int=\count331
+\l__um_primecount_int=\count332
 \g__um_primekern_muskip=\muskip18
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math
@@ -725,15 +775,15 @@ imen=xetex;+ssty=0;"<-6.57>"name:Latin
 imen=xetex;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 65.
+(Font)              `operators' in the math version `normal' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line
- 65.
+ 70.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 65.
+(Font)              `operators' in the math version `bold' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input lin
-e 65.
+e 70.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Latin Modern Math/B" (it
@@ -766,15 +816,15 @@ imen=xetex;mathfontdimen=tex2;+ssty=0;"<-6.57>"name:Latin
 imen=xetex;mathfontdimen=tex2;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 65.
+(Font)              `symbols' in the math version `normal' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input lin
-e 65.
+e 70.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 65.
+(Font)              `symbols' in the math version `bold' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input lin
-e 65.
+e 70.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Latin Modern Math/B" (it
@@ -807,24 +857,24 @@ imen=xetex;mathfontdimen=tex3;+ssty=0;"<-6.57>"name:Latin
 imen=xetex;mathfontdimen=tex3;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 6
-5.
+(Font)              `largesymbols' in the math version `normal' on input line 7
+0.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input lin
-e 65.
+e 70.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 65.
+(Font)              `largesymbols' in the math version `bold' on input line 70.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input lin
-e 65.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+e 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -845,17 +895,17 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen180
-\Gin@req@width=\dimen181
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
 )
 Package: xfrac 2024-06-04 Split-level fractions
-\l__xfrac_slash_box=\box59
-\l__xfrac_tmp_box=\box60
-\l__xfrac_denominator_bot_sep_dim=\dimen182
-\l__xfrac_numerator_bot_sep_dim=\dimen183
-\l__xfrac_numerator_top_sep_dim=\dimen184
-\l__xfrac_slash_left_sep_dim=\dimen185
-\l__xfrac_slash_right_sep_dim=\dimen186
+\l__xfrac_slash_box=\box66
+\l__xfrac_tmp_box=\box67
+\l__xfrac_denominator_bot_sep_dim=\dimen193
+\l__xfrac_numerator_bot_sep_dim=\dimen194
+\l__xfrac_numerator_top_sep_dim=\dimen195
+\l__xfrac_slash_left_sep_dim=\dimen196
+\l__xfrac_slash_right_sep_dim=\dimen197
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -873,39 +923,39 @@ LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
 
 ) (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-05-22 v3.4.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count325
-\l__siunitx_number_exponent_fixed_int=\count326
-\l__siunitx_number_min_decimal_int=\count327
-\l__siunitx_number_min_integer_int=\count328
-\l__siunitx_number_round_precision_int=\count329
-\l__siunitx_number_lower_threshold_int=\count330
-\l__siunitx_number_upper_threshold_int=\count331
-\l__siunitx_number_group_first_int=\count332
-\l__siunitx_number_group_size_int=\count333
-\l__siunitx_number_group_minimum_int=\count334
-\l__siunitx_angle_tmp_dim=\dimen187
-\l__siunitx_angle_marker_box=\box61
-\l__siunitx_angle_unit_box=\box62
-\l__siunitx_compound_count_int=\count335
+\l__siunitx_number_uncert_offset_int=\count333
+\l__siunitx_number_exponent_fixed_int=\count334
+\l__siunitx_number_min_decimal_int=\count335
+\l__siunitx_number_min_integer_int=\count336
+\l__siunitx_number_round_precision_int=\count337
+\l__siunitx_number_lower_threshold_int=\count338
+\l__siunitx_number_upper_threshold_int=\count339
+\l__siunitx_number_group_first_int=\count340
+\l__siunitx_number_group_size_int=\count341
+\l__siunitx_number_group_minimum_int=\count342
+\l__siunitx_angle_tmp_dim=\dimen198
+\l__siunitx_angle_marker_box=\box68
+\l__siunitx_angle_unit_box=\box69
+\l__siunitx_compound_count_int=\count343
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/translations/translations
 .sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box63
-\l__siunitx_table_tmp_dim=\dimen188
-\l__siunitx_table_column_width_dim=\dimen189
-\l__siunitx_table_integer_box=\box64
-\l__siunitx_table_decimal_box=\box65
-\l__siunitx_table_uncert_box=\box66
-\l__siunitx_table_before_box=\box67
-\l__siunitx_table_after_box=\box68
-\l__siunitx_table_before_dim=\dimen190
-\l__siunitx_table_carry_dim=\dimen191
-\l__siunitx_unit_tmp_int=\count336
-\l__siunitx_unit_position_int=\count337
-\l__siunitx_unit_total_int=\count338
+\l__siunitx_table_tmp_box=\box70
+\l__siunitx_table_tmp_dim=\dimen199
+\l__siunitx_table_column_width_dim=\dimen256
+\l__siunitx_table_integer_box=\box71
+\l__siunitx_table_decimal_box=\box72
+\l__siunitx_table_uncert_box=\box73
+\l__siunitx_table_before_box=\box74
+\l__siunitx_table_after_box=\box75
+\l__siunitx_table_before_dim=\dimen257
+\l__siunitx_table_carry_dim=\dimen258
+\l__siunitx_unit_tmp_int=\count344
+\l__siunitx_unit_position_int=\count345
+\l__siunitx_unit_total_int=\count346
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
@@ -926,46 +976,37 @@ Package siunitx Info: Option "per-mode = symbol-or-fraction" has been
 (siunitx)             Use "display-per-mode = fraction, inline-per-mode =
 (siunitx)             symbol" as a replacement.
 
- (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen192
-\ar@mcellbox=\box69
-\extrarowheight=\dimen193
-\NC@list=\toks27
-\extratabsurround=\skip74
-\backup@length=\skip75
-\ar@cellbox=\box70
-))
+)
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen194
-\lightrulewidth=\dimen195
-\cmidrulewidth=\dimen196
-\belowrulesep=\dimen197
-\belowbottomsep=\dimen198
-\aboverulesep=\dimen199
-\abovetopsep=\dimen256
-\cmidrulesep=\dimen257
-\cmidrulekern=\dimen258
-\defaultaddspace=\dimen259
-\@cmidla=\count339
-\@cmidlb=\count340
-\@aboverulesep=\dimen260
-\@belowrulesep=\dimen261
-\@thisruleclass=\count341
-\@lastruleclass=\count342
-\@thisrulewidth=\dimen262
+\heavyrulewidth=\dimen259
+\lightrulewidth=\dimen260
+\cmidrulewidth=\dimen261
+\belowrulesep=\dimen262
+\belowbottomsep=\dimen263
+\aboverulesep=\dimen264
+\abovetopsep=\dimen265
+\cmidrulesep=\dimen266
+\cmidrulekern=\dimen267
+\defaultaddspace=\dimen268
+\@cmidla=\count347
+\@cmidlb=\count348
+\@aboverulesep=\dimen269
+\@belowrulesep=\dimen270
+\@thisruleclass=\count349
+\@lastruleclass=\count350
+\@thisrulewidth=\dimen271
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/scrhack/scrhack.sty
 Package: scrhack 2024-09-04 v3.42 scrhack emulation package
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count343
-\float@exts=\toks28
-\float@box=\box71
-\@float@everytoks=\toks29
-\@floatcapt=\box72
+\c@float@type=\count351
+\float@exts=\toks30
+\float@box=\box76
+\@float@everytoks=\toks31
+\@floatcapt=\box77
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/floatbytocbasic/floatbyto
 cbasic.sty
@@ -985,40 +1026,40 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen263
-\ESO@tempdimb=\dimen264
+\ESO@tempdima=\dimen272
+\ESO@tempdimb=\dimen273
 )
-\AM@pagewidth=\dimen265
-\AM@pageheight=\dimen266
-\AM@fboxrule=\dimen267
+\AM@pagewidth=\dimen274
+\AM@pageheight=\dimen275
+\AM@fboxrule=\dimen276
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2025/03/12 v0.6f Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count344
-\AM@pagebox=\box73
-\AM@global@opts=\toks30
-\AM@pagecnt=\count345
-\AM@toc@title=\toks31
-\AM@lof@heading=\toks32
-\c@AM@survey=\count346
-\AM@templatesizebox=\box74
+\pdfpages@includegraphics@status=\count352
+\AM@pagebox=\box78
+\AM@global@opts=\toks32
+\AM@pagecnt=\count353
+\AM@toc@title=\toks33
+\AM@lof@heading=\toks34
+\c@AM@survey=\count354
+\AM@templatesizebox=\box79
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip76
-\enit@outerparindent=\dimen268
-\enit@toks=\toks33
-\enit@inbox=\box75
-\enit@count@id=\count347
-\enitdp@description=\count348
+\labelindent=\skip80
+\enit@outerparindent=\dimen277
+\enit@toks=\toks35
+\enit@inbox=\box80
+\enit@count@id=\count355
+\enitdp@description=\count356
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count349
+\lrq@indent=\count357
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1027,63 +1068,63 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip21
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count350
-\c@listtotal=\count351
-\c@listcount=\count352
-\c@liststart=\count353
-\c@liststop=\count354
-\c@citecount=\count355
-\c@citetotal=\count356
-\c@multicitecount=\count357
-\c@multicitetotal=\count358
-\c@instcount=\count359
-\c@maxnames=\count360
-\c@minnames=\count361
-\c@maxitems=\count362
-\c@minitems=\count363
-\c@citecounter=\count364
-\c@maxcitecounter=\count365
-\c@savedcitecounter=\count366
-\c@uniquelist=\count367
-\c@uniquename=\count368
-\c@refsection=\count369
-\c@refsegment=\count370
-\c@maxextratitle=\count371
-\c@maxextratitleyear=\count372
-\c@maxextraname=\count373
-\c@maxextradate=\count374
-\c@maxextraalpha=\count375
-\c@abbrvpenalty=\count376
-\c@highnamepenalty=\count377
-\c@lownamepenalty=\count378
-\c@maxparens=\count379
-\c@parenlevel=\count380
-\blx@tempcnta=\count381
-\blx@tempcntb=\count382
-\blx@tempcntc=\count383
-\c@blx@maxsection=\count384
-\blx@maxsegment@0=\count385
-\blx@notetype=\count386
-\blx@parenlevel@text=\count387
-\blx@parenlevel@foot=\count388
-\blx@sectionciteorder@0=\count389
-\blx@sectionciteorderinternal@0=\count390
-\blx@entrysetcounter=\count391
-\blx@biblioinstance=\count392
-\labelnumberwidth=\skip77
-\labelalphawidth=\skip78
-\biblabelsep=\skip79
-\bibitemsep=\skip80
-\bibnamesep=\skip81
-\bibinitsep=\skip82
-\bibparsep=\skip83
-\bibhang=\skip84
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\c@blx@maxsection=\count392
+\blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\blx@sectionciteorder@0=\count397
+\blx@sectionciteorderinternal@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip81
+\labelalphawidth=\skip82
+\biblabelsep=\skip83
+\bibitemsep=\skip84
+\bibnamesep=\skip85
+\bibinitsep=\skip86
+\bibparsep=\skip87
+\bibhang=\skip88
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language92
-\c@mincomprange=\count393
-\c@maxcomprange=\count394
-\c@mincompwidth=\count395
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1092,88 +1133,88 @@ File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count396
-\c@savedafterword=\count397
-\c@annotator=\count398
-\c@savedannotator=\count399
-\c@author=\count400
-\c@savedauthor=\count401
-\c@bookauthor=\count402
-\c@savedbookauthor=\count403
-\c@commentator=\count404
-\c@savedcommentator=\count405
-\c@editor=\count406
-\c@savededitor=\count407
-\c@editora=\count408
-\c@savededitora=\count409
-\c@editorb=\count410
-\c@savededitorb=\count411
-\c@editorc=\count412
-\c@savededitorc=\count413
-\c@foreword=\count414
-\c@savedforeword=\count415
-\c@holder=\count416
-\c@savedholder=\count417
-\c@introduction=\count418
-\c@savedintroduction=\count419
-\c@namea=\count420
-\c@savednamea=\count421
-\c@nameb=\count422
-\c@savednameb=\count423
-\c@namec=\count424
-\c@savednamec=\count425
-\c@translator=\count426
-\c@savedtranslator=\count427
-\c@shortauthor=\count428
-\c@savedshortauthor=\count429
-\c@shorteditor=\count430
-\c@savedshorteditor=\count431
-\c@labelname=\count432
-\c@savedlabelname=\count433
-\c@institution=\count434
-\c@savedinstitution=\count435
-\c@lista=\count436
-\c@savedlista=\count437
-\c@listb=\count438
-\c@savedlistb=\count439
-\c@listc=\count440
-\c@savedlistc=\count441
-\c@listd=\count442
-\c@savedlistd=\count443
-\c@liste=\count444
-\c@savedliste=\count445
-\c@listf=\count446
-\c@savedlistf=\count447
-\c@location=\count448
-\c@savedlocation=\count449
-\c@organization=\count450
-\c@savedorganization=\count451
-\c@origlocation=\count452
-\c@savedoriglocation=\count453
-\c@origpublisher=\count454
-\c@savedorigpublisher=\count455
-\c@publisher=\count456
-\c@savedpublisher=\count457
-\c@language=\count458
-\c@savedlanguage=\count459
-\c@origlanguage=\count460
-\c@savedoriglanguage=\count461
-\c@pageref=\count462
-\c@savedpageref=\count463
-\shorthandwidth=\skip85
-\shortjournalwidth=\skip86
-\shortserieswidth=\skip87
-\shorttitlewidth=\skip88
-\shortauthorwidth=\skip89
-\shorteditorwidth=\skip90
-\locallabelnumberwidth=\skip91
-\locallabelalphawidth=\skip92
-\localshorthandwidth=\skip93
-\localshortjournalwidth=\skip94
-\localshortserieswidth=\skip95
-\localshorttitlewidth=\skip96
-\localshortauthorwidth=\skip97
-\localshorteditorwidth=\skip98
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip89
+\shortjournalwidth=\skip90
+\shortserieswidth=\skip91
+\shorttitlewidth=\skip92
+\shortauthorwidth=\skip93
+\shorteditorwidth=\skip94
+\locallabelnumberwidth=\skip95
+\locallabelalphawidth=\skip96
+\localshorthandwidth=\skip97
+\localshortjournalwidth=\skip98
+\localshortserieswidth=\skip99
+\localshorttitlewidth=\skip100
+\localshortauthorwidth=\skip101
+\localshorteditorwidth=\skip102
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1188,19 +1229,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count464
-\c@textcitetotal=\count465
-\c@textcitemaxnames=\count466
-\c@biburlbigbreakpenalty=\count467
-\c@biburlbreakpenalty=\count468
-\c@biburlnumpenalty=\count469
-\c@biburlucpenalty=\count470
-\c@biburllcpenalty=\count471
+\c@textcitecount=\count472
+\c@textcitetotal=\count473
+\c@textcitemaxnames=\count474
+\c@biburlbigbreakpenalty=\count475
+\c@biburlbreakpenalty=\count476
+\c@biburlnumpenalty=\count477
+\c@biburlucpenalty=\count478
+\c@biburllcpenalty=\count479
 \biburlbigskip=\muskip22
 \biburlnumskip=\muskip23
 \biburlucskip=\muskip24
 \biburllcskip=\muskip25
-\c@smartand=\count472
+\c@smartand=\count480
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1212,8 +1253,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count473
-\c@bbx:relatedtotal=\count474
+\c@bbx:relatedcount=\count481
+\c@bbx:relatedtotal=\count482
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1271,22 +1312,22 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 string.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count475
+\c@section@level=\count483
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen269
-\Hy@linkcounter=\count476
-\Hy@pagecounter=\count477
+\@linkdim=\dimen278
+\Hy@linkcounter=\count484
+\Hy@pagecounter=\count485
  (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-05-20 v7.01m Hyperref: PDFDocEncoding definition (HO)
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count478
+\Hy@SavedSpaceFactor=\count486
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-05-20 v7.01m Hyperref: PDF Unicode definition (HO)
@@ -1300,16 +1341,16 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count479
+\c@Hy@tempcnt=\count487
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen270
+\XeTeXLinkMargin=\dimen279
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count480
-\Field@Width=\dimen271
-\Fld@charsize=\dimen272
+\Fld@menulength=\count488
+\Field@Width=\dimen280
+\Fld@charsize=\dimen281
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1322,17 +1363,17 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count481
-\c@Item=\count482
-\c@Hfootnote=\count483
+\Hy@abspage=\count489
+\c@Item=\count490
+\c@Hfootnote=\count491
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2025-05-20 v7.01m Hyperref driver for luaTeX
-\Fld@listcount=\count484
-\c@bookmark@seq@number=\count485
-\Hy@SectionHShift=\skip99
+\Fld@listcount=\count492
+\c@bookmark@seq@number=\count493
+\Hy@SectionHShift=\skip103
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1340,7 +1381,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count486
+\BKM@id=\count494
 )) (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 )
@@ -1350,25 +1391,25 @@ Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count487
-\g__chemgreek_tmpa_int=\count488
+\l__chemgreek_tmpa_int=\count495
+\g__chemgreek_tmpa_int=\count496
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count489
-\__mhchem_arrow_extPgfLength_skip=\skip100
-\mhchem@minispace@tmp=\skip101
-\mhchem@minibackspace@tmp=\skip102
-\mhchem@bondwidth=\skip103
-\mhchem@bondheight=\skip104
-\mhchem@smallbondwidth@tmpA=\skip105
-\mhchem@smallbondwidth@tmpB=\skip106
-\mhchem@smallbondwidth=\skip107
-\mhchem@bondtmp@minussidebearingleft=\skip108
-\mhchem@bondtmp@minussidebearingright=\skip109
-\l__mhchem_option_version_int=\count490
-\mhchem@option@minusmathsidebearingleft=\dimen273
-\mhchem@option@minusmathsidebearingright=\dimen274
-\mhchem@option@minustextsidebearingleft=\dimen275
-\mhchem@option@minustextsidebearingright=\dimen276
+\l__mhchem_ce_distanceFromLastComma_int=\count497
+\__mhchem_arrow_extPgfLength_skip=\skip104
+\mhchem@minispace@tmp=\skip105
+\mhchem@minibackspace@tmp=\skip106
+\mhchem@bondwidth=\skip107
+\mhchem@bondheight=\skip108
+\mhchem@smallbondwidth@tmpA=\skip109
+\mhchem@smallbondwidth@tmpB=\skip110
+\mhchem@smallbondwidth=\skip111
+\mhchem@bondtmp@minussidebearingleft=\skip112
+\mhchem@bondtmp@minussidebearingright=\skip113
+\l__mhchem_option_version_int=\count498
+\mhchem@option@minusmathsidebearingleft=\dimen282
+\mhchem@option@minusmathsidebearingright=\dimen283
+\mhchem@option@minustextsidebearingleft=\dimen284
+\mhchem@option@minustextsidebearingright=\dimen285
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -1391,11 +1432,11 @@ rb
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count491
+\FV@CodeLineNo=\count499
 \FV@InFile=\read4
-\FV@TabBox=\box76
-\c@FancyVerbLine=\count492
-\FV@StepNumber=\count493
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count500
+\FV@StepNumber=\count501
 \FV@OutFile=\write4
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
@@ -1407,21 +1448,21 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ))
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2025/05/13 line numbers on paragraphs v5.5
-\linenopenalty=\count494
-\output=\toks34
-\linenoprevgraf=\count495
-\linenumbersep=\dimen277
-\linenumberwidth=\dimen278
-\c@linenumber=\count496
-\c@pagewiselinenumber=\count497
-\c@LN@truepage=\count498
-\c@internallinenumber=\count499
-\c@internallinenumbers=\count500
-\quotelinenumbersep=\dimen279
-\bframerule=\dimen280
-\bframesep=\dimen281
-\bframebox=\box77
-\@LN@amsmath@ams@eqpen=\count501
+\linenopenalty=\count502
+\output=\toks36
+\linenoprevgraf=\count503
+\linenumbersep=\dimen286
+\linenumberwidth=\dimen287
+\c@linenumber=\count504
+\c@pagewiselinenumber=\count505
+\c@LN@truepage=\count506
+\c@internallinenumber=\count507
+\c@internallinenumbers=\count508
+\quotelinenumbersep=\dimen288
+\bframerule=\dimen289
+\bframesep=\dimen290
+\bframebox=\box82
+\@LN@amsmath@ams@eqpen=\count509
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -1432,32 +1473,32 @@ LaTeX Warning: Command \@parboxrestore  has changed.
 Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
 rning from the lineno package on input line 37.
 
-\c@FancyVerbWriteLine=\count502
-\c@FancyVerbBufferLine=\count503
-\c@FV@TrueTabGroupLevel=\count504
-\c@FV@TrueTabCounter=\count505
-\FV@TabBox@Group=\box78
-\FV@bgcolorstructbox=\box79
-\FV@TmpLength=\skip110
-\c@FV@HighlightLinesStart=\count506
-\c@FV@HighlightLinesStop=\count507
-\FV@LoopCount=\count508
-\FV@NCharsBox=\box80
-\FV@BreakIndent=\dimen282
-\FV@BreakIndentNChars=\count509
-\FV@BreakSymbolSepLeft=\dimen283
-\FV@BreakSymbolSepLeftNChars=\count510
-\FV@BreakSymbolSepRight=\dimen284
-\FV@BreakSymbolSepRightNChars=\count511
-\FV@BreakSymbolIndentLeft=\dimen285
-\FV@BreakSymbolIndentLeftNChars=\count512
-\FV@BreakSymbolIndentRight=\dimen286
-\FV@BreakSymbolIndentRightNChars=\count513
-\c@FancyVerbLineBreakLast=\count514
-\FV@LineBox=\box81
-\FV@LineIndentBox=\box82
-\c@FV@BreakBufferDepth=\count515
-\FV@LineWidth=\dimen287
+\c@FancyVerbWriteLine=\count510
+\c@FancyVerbBufferLine=\count511
+\c@FV@TrueTabGroupLevel=\count512
+\c@FV@TrueTabCounter=\count513
+\FV@TabBox@Group=\box83
+\FV@bgcolorstructbox=\box84
+\FV@TmpLength=\skip114
+\c@FV@HighlightLinesStart=\count514
+\c@FV@HighlightLinesStop=\count515
+\FV@LoopCount=\count516
+\FV@NCharsBox=\box85
+\FV@BreakIndent=\dimen291
+\FV@BreakIndentNChars=\count517
+\FV@BreakSymbolSepLeft=\dimen292
+\FV@BreakSymbolSepLeftNChars=\count518
+\FV@BreakSymbolSepRight=\dimen293
+\FV@BreakSymbolSepRightNChars=\count519
+\FV@BreakSymbolIndentLeft=\dimen294
+\FV@BreakSymbolIndentLeftNChars=\count520
+\FV@BreakSymbolIndentRight=\dimen295
+\FV@BreakSymbolIndentRightNChars=\count521
+\c@FancyVerbLineBreakLast=\count522
+\FV@LineBox=\box86
+\FV@LineIndentBox=\box87
+\c@FV@BreakBufferDepth=\count523
+\FV@LineWidth=\dimen296
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata
 .sty
@@ -1468,26 +1509,26 @@ thon literal format
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.c
 ode.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeysli
 braryfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks39
 )))
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks38
-\pgfopts@list@add@b@toks=\toks39
+\pgfopts@list@add@a@toks=\toks40
+\pgfopts@list@add@b@toks=\toks41
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@minted@FancyVerbLineTemp=\count516
+\c@minted@FancyVerbLineTemp=\count524
 Package tocbasic Info: setting babel extension for `lol' on input line 1940.
-\@float@every@listing=\toks40
-\c@listing=\count517
+\@float@every@listing=\toks42
+\c@listing=\count525
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1495,50 +1536,50 @@ Package csquotes Info: ... found 'babel' package.
 (./build/MNIST_diffusion.aux)
 \openout1 = MNIST_diffusion.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-Package scrbase Info: activating american \partname on input line 161.
-Package scrbase Info: activating american \chaptername on input line 161.
-Package scrbase Info: activating american \appendixname on input line 161.
-Package scrbase Info: activating american \figurename on input line 161.
-Package scrbase Info: activating american \tablename on input line 161.
-Package scrbase Info: activating american \contentsname on input line 161.
-Package scrbase Info: activating american \listfigurename on input line 161.
-Package scrbase Info: activating american \listtablename on input line 161.
-Package scrbase Info: activating american \bibname on input line 161.
-Package scrbase Info: activating american \indexname on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+Package scrbase Info: activating american \partname on input line 166.
+Package scrbase Info: activating american \chaptername on input line 166.
+Package scrbase Info: activating american \appendixname on input line 166.
+Package scrbase Info: activating american \figurename on input line 166.
+Package scrbase Info: activating american \tablename on input line 166.
+Package scrbase Info: activating american \contentsname on input line 166.
+Package scrbase Info: activating american \listfigurename on input line 166.
+Package scrbase Info: activating american \listtablename on input line 166.
+Package scrbase Info: activating american \bibname on input line 166.
+Package scrbase Info: activating american \indexname on input line 166.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count518
-\scratchdimen=\dimen288
-\scratchbox=\box83
-\nofMPsegments=\count519
-\nofMParguments=\count520
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count521
-\MPscratchDim=\dimen289
-\MPnumerator=\count522
-\makeMPintoPDFobject=\count523
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count526
+\scratchdimen=\dimen297
+\scratchbox=\box88
+\nofMPsegments=\count527
+\nofMParguments=\count528
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count529
+\MPscratchDim=\dimen298
+\MPnumerator=\count530
+\makeMPintoPDFobject=\count531
+\everyMPtoPDFconversion=\toks44
 )
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-bas
 e.sty
@@ -1554,21 +1595,26 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/home/simon/.local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 161.
-Package microtype Info: Applying patch `item' on input line 161.
-Package microtype Info: Applying patch `toc' on input line 161.
-Package microtype Info: Applying patch `eqnum' on input line 161.
-Package microtype Info: Applying patch `footnote' on input line 161.
-Package microtype Info: Applying patch `verbatim' on input line 161.
-LaTeX Info: Redefining \microtypesetup on input line 161.
+LaTeX Info: Redefining \microtypecontext on input line 166.
+Package microtype Info: Applying patch `item' on input line 166.
+Package microtype Info: Applying patch `toc' on input line 166.
+Package microtype Info: Applying patch `eqnum' on input line 166.
+Package microtype Info: Applying patch `footnote' on input line 166.
+Package microtype Info: Applying patch `verbatim' on input line 166.
+LaTeX Info: Redefining \microtypesetup on input line 166.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 161.
+LaTeX Info: Redefining \showhyphens on input line 166.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1578,21 +1624,55 @@ oman.cfg
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 483.69693pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23593pt, 56.9055pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=483.69693pt
+* \textheight=731.23593pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.7645pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=84.50468pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 
-161.
+166.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 161.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 161.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 161.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 161.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 161.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 161.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 166.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/translations/translations
 -basic-dictionary-english.trsl
@@ -1605,7 +1685,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 161.
+or `german'. on input line 166.
 
 (/home/simon/.local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1623,7 +1703,7 @@ nced.sty
 Package: lscapeenhanced 2024-04-16 v1.0 improved lscape package
 Package lscapeenhanced Info: \landscape patched to make \textheight change opti
 onal on input line 72.
-\@lscapeenhanced@textheight=\skip111
+\@lscapeenhanced@textheight=\skip115
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
@@ -1668,16 +1748,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MNIST_diffusion.bbl' found.
 (./build/MNIST_diffusion.bbl)
-Package biblatex Info: Reference section=0 on input line 161.
-Package biblatex Info: Reference segment=0 on input line 161.
-Package hyperref Info: Link coloring OFF on input line 161.
+Package biblatex Info: Reference section=0 on input line 166.
+Package biblatex Info: Reference segment=0 on input line 166.
+Package hyperref Info: Link coloring OFF on input line 166.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 161.
+Package chemgreek Info: Activating mapping `fontspec' on line 166.
 
 <../../tu-logo.pdf, id=4, 340.27126pt x 55.20625pt>
 File: ../../tu-logo.pdf Graphic file (type pdf)
 <use ../../tu-logo.pdf>
-Package luatex.def Info: ../../tu-logo.pdf  used on input line 168.
+Package luatex.def Info: ../../tu-logo.pdf  used on input line 173.
 (luatex.def)             Requested size: 245.52989pt x 39.83368pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
@@ -1703,8 +1783,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {/home/simon/.local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<.
 ./../tu-logo.pdf>]
-Package tocbasic Info: character protrusion at toc deactivated on input line 16
-8.
+Package tocbasic Info: character protrusion at toc deactivated on input line 17
+3.
  (./build/MNIST_diffusion.toc)
 \tf@toc=\write5
 
@@ -1728,62 +1808,186 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 chapter 2.
+\pydata@fh@0=\write6
 
+\openout6 = _FC8AFAC2D39A52CB246FFBB638D88FA2.data.minted
+runsystem(latexminted config  --timestamp 20260623193039 FC8AFAC2D39A52CB246FFBB
+638D88FA2)...executed.
+(./build/_FC8AFAC2D39A52CB246FFBB638D88FA2.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20260623193039 FC8AFAC2D39A52CB24
+6FFBB638D88FA2)...executed.
+
+(./build/_minted/default.style.minted)
+(./build/_minted/B9C3EA99BF9D933B26BEA396DDD93AAE.highlight.minted
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
+)
+(./build/_minted/EF3FD6A4D348E43B2302C73C9994BF0E.highlight.minted)
 
 [2
 
 ]
 chapter 3.
+<../data/fullLossCurve.png, id=52, 462.528pt x 346.896pt>
+File: ../data/fullLossCurve.png Graphic file (type png)
+<use ../data/fullLossCurve.png>
+Package luatex.def Info: ../data/fullLossCurve.png  used on input line 44.
+(luatex.def)             Requested size: 338.58636pt x 253.95184pt.
+<../data/new_generated_digits_epoch_5.png, id=55, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_5.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_5.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_5.png  used on inpu
+t line 55.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_10.png, id=56, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_10.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_10.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_10.png  used on inp
+ut line 56.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_20.png, id=57, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_20.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_20.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_20.png  used on inp
+ut line 60.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_30.png, id=58, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_30.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_30.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_30.png  used on inp
+ut line 61.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_40.png, id=59, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_40.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_40.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_40.png  used on inp
+ut line 65.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_50.png, id=60, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_50.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_50.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_50.png  used on inp
+ut line 66.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_60.png, id=61, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_60.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_60.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_60.png  used on inp
+ut line 70.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_70.png, id=62, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_70.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_70.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_70.png  used on inp
+ut line 71.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_80.png, id=63, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_80.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_80.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_80.png  used on inp
+ut line 75.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
+<../data/new_generated_digits_epoch_90.png, id=64, 242.9075pt x 92.345pt>
+File: ../data/new_generated_digits_epoch_90.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_90.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_90.png  used on inp
+ut line 76.
+(luatex.def)             Requested size: 220.56311pt x 83.84947pt.
 
+Overfull \hbox (4.64798pt too wide) in alignment at lines 52--77
+ [][] 
+ []
 
 [3
 
-]
+<../data/fullLossCurve.png><../data/new_generated_digits_epoch_5.png><../data/ne
+w_generated_digits_epoch_10.png><../data/new_generated_digits_epoch_20.png><../d
+ata/new_generated_digits_epoch_30.png>]
+
+Package caption Warning: \setcaptiontype
+(caption)                outside box or environment on input line 78.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 78.
+See the caption package documentation for explanation.
+
+<../data/new_generated_digits_epoch_100.png, id=78, 242.9075pt x 122.4575pt>
+File: ../data/new_generated_digits_epoch_100.png Graphic file (type png)
+<use ../data/new_generated_digits_epoch_100.png>
+Package luatex.def Info: ../data/new_generated_digits_epoch_100.png  used on in
+put line 87.
+(luatex.def)             Requested size: 290.2211pt x 146.30919pt.
+<../GAN_lastEpoch.png, id=79, 952.7595pt x 476.982pt>
+File: ../GAN_lastEpoch.png Graphic file (type png)
+<use ../GAN_lastEpoch.png>
+Package luatex.def Info: ../GAN_lastEpoch.png  used on input line 95.
+(luatex.def)             Requested size: 290.2211pt x 145.2937pt.
+
+
+[4<../data/new_generated_digits_epoch_40.png><../data/new_generated_digits_epoch
+_50.png><../data/new_generated_digits_epoch_60.png><../data/new_generated_digits
+_epoch_70.png><../data/new_generated_digits_epoch_80.png><../data/new_generated_
+digits_epoch_90.png>]
+
+[5<../data/new_generated_digits_epoch_100.png><../GAN_lastEpoch.png>]
 chapter 4.
 )
 
-[4
+[6
 
 ]
+chapter without number
 
-LaTeX Warning: Empty bibliography on input line 178.
 
-runsystem(latexminted cleantemp  --timestamp 20260617104115 FC8AFAC2D39A52CB246F
-FBB638D88FA2)...executed.
-(./build/MNIST_diffusion.aux)
+[7
+
+
+] (./build/MNIST_diffusion.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `MNIST_diffusion.aux' has not changed.
-(rerunfilecheck)             Checksum: 1D956B7836D43C595CAFAA45D9242011;2666.
+(rerunfilecheck)             Checksum: 73E5BFD6609A3EE9D6028295491E4FD3;4275.
 Package rerunfilecheck Info: File `MNIST_diffusion.toc' has not changed.
-(rerunfilecheck)             Checksum: 9B3C8E335C0E9B3EF26D282445A13C1D;381.
+(rerunfilecheck)             Checksum: D368B5A6E1093FB0FCEE96A9F4C9825C;449.
 Package logreq Info: Writing requests to 'MNIST_diffusion.run.xml'.
 
 \openout1 = MNIST_diffusion.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45402 strings out of 471907
+ 46773 strings out of 471907
  100000,2373549 words of node,token memory allocated
- 719 words of node memory still in use:
+ 752 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 18
- attribute, 75 glue_spec, 11 attribute_list, 2 write nodes
-   avail lists: 1:1,2:759,3:133,4:82,5:132,6:66,7:866,8:44,9:353,10:5,11:47,12:1
-
- 71265 multiletter control sequences out of 65536+600000
- 63 fonts using 19811671 bytes
+ attribute, 81 glue_spec, 11 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:1,2:1329,3:261,4:167,5:142,6:96,7:2964,8:57,9:707,10:10,11:209
+,12:1
+ 72543 multiletter control sequences out of 65536+600000
+ 81 fonts using 23872831 bytes
  122i,20n,114p,10910b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-re
-gular.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public/lm/l
-mroman10-regular.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/
-public/lm/lmroman12-regular.otf></home/simon/.local/texlive/2025/texmf-dist/font
-s/opentype/public/lm/lmsans10-bold.otf>
-Output written on MNIST_diffusion.pdf (6 pages, 32267 bytes).
+</home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps
+10-regular.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public
+/lm/lmroman10-italic.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opent
+ype/public/lm/lmroman9-regular.otf></home/simon/.local/texlive/2025/texmf-dist/f
+onts/opentype/public/lm/lmroman9-bold.otf></home/simon/.local/texlive/2025/texmf
+-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/simon/.local/te
+xlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/simon/.
+local/texlive/2025/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf
+></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-i
+talic.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/public/lm/l
+mmonolt10-bold.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/opentype/pu
+blic/lm/lmmono10-regular.otf></home/simon/.local/texlive/2025/texmf-dist/fonts/o
+pentype/public/lm/lmroman10-regular.otf></home/simon/.local/texlive/2025/texmf-d
+ist/fonts/opentype/public/lm/lmroman12-regular.otf></home/simon/.local/texlive/2
+025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on MNIST_diffusion.pdf (9 pages, 292254 bytes).
 
-PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 207 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 131072)
+ 41 words of extra memory for PDF output out of 10000 (max. 100000000)
 

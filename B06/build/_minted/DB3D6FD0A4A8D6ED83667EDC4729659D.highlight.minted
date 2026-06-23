@@ -1,0 +1,52 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+    \PYG{n}{batches} \PYG{o}{=} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{n}{shuffled\PYGZus{}dataset}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{\PYGZhy{}}\PYG{n}{BATCH\PYGZus{}SIZE}\PYG{p}{,} \PYG{n}{BATCH\PYGZus{}SIZE}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n}{batches}\PYG{p}{:}
+        \PYG{c+c1}{\PYGZsh{} sample a batch of data}
+        \PYG{n}{x0} \PYG{o}{=} \PYG{n}{shuffled\PYGZus{}dataset}\PYG{p}{[}\PYG{n}{i}\PYG{p}{:}\PYG{n}{i} \PYG{o}{+} \PYG{n}{BATCH\PYGZus{}SIZE}\PYG{p}{]} \PYG{c+c1}{\PYGZsh{}step 2}
+
+        \PYG{c+c1}{\PYGZsh{} here, implement algorithm 1 of the DDPM paper}
+        \PYG{c+c1}{\PYGZsh{} (https://arxiv.org/abs/2006.11239)}
+        \PYG{n}{t} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{n}{TIME\PYGZus{}STEPS}\PYG{p}{,(}\PYG{n}{BATCH\PYGZus{}SIZE}\PYG{p}{,))} \PYG{c+c1}{\PYGZsh{} sample timestep (step 3)}
+        \PYG{n}{epsilon} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{randn\PYGZus{}like}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} sample Gaussian noise}
+        \PYG{c+c1}{\PYGZsh{} with same shape as x0 (step 4)}
+        \PYG{n}{alpha\PYGZus{}bar\PYGZus{}t} \PYG{o}{=} \PYG{n}{alpha\PYGZus{}bars}\PYG{p}{[}\PYG{n}{t}\PYG{p}{]}
+
+        \PYG{n}{x\PYGZus{}t} \PYG{o}{=} \PYG{p}{(}\PYG{n}{torch}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{alpha\PYGZus{}bar\PYGZus{}t}\PYG{p}{)}\PYG{o}{*}\PYG{n}{x0}\PYG{o}{+}\PYG{n}{torch}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha\PYGZus{}bar\PYGZus{}t}\PYG{p}{)}\PYG{o}{*}\PYG{n}{epsilon}\PYG{p}{)}
+        \PYG{c+c1}{\PYGZsh{} q(x\PYGZus{}t | x\PYGZus{}0) (forward)}
+
+        \PYG{n}{t\PYGZus{}input} \PYG{o}{=} \PYG{n}{t}\PYG{o}{.}\PYG{n}{float}\PYG{p}{()}\PYG{o}{/}\PYG{n}{TIME\PYGZus{}STEPS} \PYG{c+c1}{\PYGZsh{} normalize}
+        \PYG{n+nb}{input} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{x\PYGZus{}t}\PYG{p}{,} \PYG{n}{t\PYGZus{}input}\PYG{p}{],} \PYG{n}{dim}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} stack sample values}
+        \PYG{c+c1}{\PYGZsh{} and time steps together as network input}
+
+        \PYG{n}{predict\PYGZus{}epsilon} \PYG{o}{=} \PYG{n}{g}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{)}\PYG{o}{.}\PYG{n}{squeeze}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} squeeze:}
+        \PYG{c+c1}{\PYGZsh{}(batch size,1) \PYGZhy{}\PYGZgt{} (batch size) \PYGZsh{} step 5}
+        \PYG{n}{loss} \PYG{o}{=} \PYG{n}{loss\PYGZus{}function}\PYG{p}{(}\PYG{n}{predict\PYGZus{}epsilon}\PYG{p}{,} \PYG{n}{epsilon}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} calculate loss \PYGZsh{} step 5}
+
+        \PYG{n}{optimizer}\PYG{o}{.}\PYG{n}{zero\PYGZus{}grad}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} ´clear old gradients}
+        \PYG{n}{loss}\PYG{o}{.}\PYG{n}{backward}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} compute gradients}
+        \PYG{n}{optimizer}\PYG{o}{.}\PYG{n}{step}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} update parameters}
+
+        \PYG{n}{train\PYGZus{}loss} \PYG{o}{+=} \PYG{n}{loss}\PYG{o}{.}\PYG{n}{item}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} add loss to total loss for current epoch}
+        \PYG{c+c1}{\PYGZsh{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+    \PYG{n}{train\PYGZus{}loss}\PYG{o}{=}\PYG{n}{train\PYGZus{}loss}\PYG{o}{/}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{batches}\PYG{p}{)}
+    \PYG{n}{train\PYGZus{}loss\PYGZus{}hist}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{train\PYGZus{}loss}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} compute the loss on the validation set}
+    \PYG{n}{g}\PYG{o}{.}\PYG{n}{eval}\PYG{p}{()}
+    \PYG{k}{with} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{no\PYGZus{}grad}\PYG{p}{():} \PYG{c+c1}{\PYGZsh{} no operation tracking}
+        \PYG{c+c1}{\PYGZsh{}for gradient computation \PYGZhy{}\PYGZgt{} only evaluation}
+        \PYG{n}{x0} \PYG{o}{=} \PYG{n}{dataset\PYGZus{}validation}
+        \PYG{c+c1}{\PYGZsh{}\PYGZhy{}\PYGZhy{}\PYGZhy{} same as for training}
+        \PYG{n}{t} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{n}{TIME\PYGZus{}STEPS}\PYG{p}{,(}\PYG{n}{x0}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],))}
+        \PYG{n}{epsilon} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{randn\PYGZus{}like}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{)}
+        \PYG{n}{alpha\PYGZus{}bar\PYGZus{}t} \PYG{o}{=} \PYG{n}{alpha\PYGZus{}bars}\PYG{p}{[}\PYG{n}{t}\PYG{p}{]}
+        \PYG{n}{xt} \PYG{o}{=} \PYG{p}{(}\PYG{n}{torch}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{alpha\PYGZus{}bar\PYGZus{}t}\PYG{p}{)} \PYG{o}{*} \PYG{n}{x0} \PYG{o}{+} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{n}{alpha\PYGZus{}bar\PYGZus{}t}\PYG{p}{)} \PYG{o}{*} \PYG{n}{epsilon}\PYG{p}{)}
+        \PYG{n}{t\PYGZus{}input} \PYG{o}{=} \PYG{n}{t}\PYG{o}{.}\PYG{n}{float}\PYG{p}{()} \PYG{o}{/} \PYG{n}{TIME\PYGZus{}STEPS}
+        \PYG{n+nb}{input} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{xt}\PYG{p}{,} \PYG{n}{t\PYGZus{}input}\PYG{p}{],} \PYG{n}{dim}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{)}
+        \PYG{n}{predict\PYGZus{}epsilon} \PYG{o}{=} \PYG{n}{g}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{)}\PYG{o}{.}\PYG{n}{squeeze}\PYG{p}{()}
+        \PYG{c+c1}{\PYGZsh{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+        \PYG{n}{val\PYGZus{}loss} \PYG{o}{=} \PYG{n}{loss\PYGZus{}function}\PYG{p}{(}\PYG{n}{predict\PYGZus{}epsilon}\PYG{p}{,} \PYG{n}{epsilon}\PYG{p}{)}
+    \PYG{n}{val\PYGZus{}loss\PYGZus{}hist}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{val\PYGZus{}loss}\PYG{p}{)}
+    \PYG{n}{epochs}\PYG{o}{.}\PYG{n}{set\PYGZus{}description}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Training loss = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{train\PYGZus{}loss}\PYG{l+s+si}{:}\PYG{l+s+s2}{.2f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{,}
+    \PYG{n}{Validation} \PYG{n}{loss} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{n}{val\PYGZus{}loss}\PYG{p}{:}\PYG{l+m+mf}{.4}\PYG{n}{f}\PYG{p}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}) \PYGZsh{} print losses next to progress bar}
+\end{MintedVerbatim}

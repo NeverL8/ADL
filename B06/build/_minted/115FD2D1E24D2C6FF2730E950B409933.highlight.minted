@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{g} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{Sequential}\PYG{p}{(}
+    \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{Linear}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{256}\PYG{p}{),}
+    \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{ReLU}\PYG{p}{(),}
+    \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{Linear}\PYG{p}{(}\PYG{l+m+mi}{256}\PYG{p}{,} \PYG{l+m+mi}{256}\PYG{p}{),}
+    \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{ReLU}\PYG{p}{(),}
+    \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{Linear}\PYG{p}{(}\PYG{l+m+mi}{256}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{p}{)}
+\end{MintedVerbatim}

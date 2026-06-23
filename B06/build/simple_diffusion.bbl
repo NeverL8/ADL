@@ -1,0 +1,70 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{paper}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2ac2ca10b22e4d13af1767e87495412f}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31ac0835ffc3ba6d612252522a6a2011}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e28d4ee199593959d8c29980a64f1974}{%
+           family={Abbeel},
+           familyi={A\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{fullhash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{fullhashraw}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{bibnamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorbibnamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authornamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorfullhash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorfullhashraw}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Denoising Diffusion Probabilistic Models}
+      \field{volume}{abs/2006.11239}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2006.11239
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2006.11239
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2006.11239
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

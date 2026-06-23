@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{TIME\PYGZus{}STEPS} \PYG{o}{=} \PYG{l+m+mi}{250}
+\PYG{n}{BETA} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{tensor}\PYG{p}{(}\PYG{l+m+mf}{0.02}\PYG{p}{)}
+\PYG{n}{N\PYGZus{}EPOCHS} \PYG{o}{=} \PYG{l+m+mi}{1000}
+\PYG{n}{BATCH\PYGZus{}SIZE} \PYG{o}{=} \PYG{l+m+mi}{128}
+\PYG{n}{LEARNING\PYGZus{}RATE} \PYG{o}{=} \PYG{l+m+mf}{0.8e\PYGZhy{}4}
+\PYG{n}{optimizer}\PYG{o}{=}\PYG{n}{torch}\PYG{o}{.}\PYG{n}{optim}\PYG{o}{.}\PYG{n}{Adam}\PYG{p}{(}\PYG{n}{g}\PYG{o}{.}\PYG{n}{parameters}\PYG{p}{(),} \PYG{n}{lr}\PYG{o}{=}\PYG{n}{LEARNING\PYGZus{}RATE}\PYG{p}{)}
+\PYG{n}{loss\PYGZus{}function} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{nn}\PYG{o}{.}\PYG{n}{MSELoss}\PYG{p}{()}
+\end{MintedVerbatim}
