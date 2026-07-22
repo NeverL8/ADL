@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{hidden\PYGZus{}dim}\PYG{o}{=}\PYG{l+m+mi}{128}\PYG{p}{,}
+\PYG{n}{nhead}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{p}{,}
+\PYG{n}{num\PYGZus{}layers}\PYG{o}{=}\PYG{l+m+mi}{3}\PYG{p}{,}
+\PYG{n}{dim\PYGZus{}feedforward}\PYG{o}{=}\PYG{l+m+mi}{128}
+\end{MintedVerbatim}
